@@ -92,7 +92,7 @@ Namespace GetSearchLocationAdditionalInfo
             searchProvider = New BingSearchDataProvider()
             infoLayer.DataProvider = searchProvider
             searchProvider.BingKey = yourBingKey
-            map.ShowSearchPanel = False
+            map.SearchPanelOptions.Visible = False
         End Sub
     End Class
 End Namespace

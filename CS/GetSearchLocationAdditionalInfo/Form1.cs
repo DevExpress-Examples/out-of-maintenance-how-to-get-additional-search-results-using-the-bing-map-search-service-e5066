@@ -90,7 +90,7 @@ namespace GetSearchLocationAdditionalInfo {
             searchProvider = new BingSearchDataProvider();
             infoLayer.DataProvider = searchProvider;
             searchProvider.BingKey = yourBingKey;
-            map.ShowSearchPanel = false;
+            map.SearchPanelOptions.Visible = false;
         }
     }
 }
